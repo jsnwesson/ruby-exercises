@@ -30,7 +30,7 @@ end
 
 def empty_string(string)
   # return true if the string is empty
-  string.length == 0 ? true : false
+  string.empty?
 end
 
 def string_length(string)
